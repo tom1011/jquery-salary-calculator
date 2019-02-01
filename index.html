@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Salary Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+    <script src="jquery.js"></script>
+    <script src="client.js"></script>
+</head>
+
+<body>
+    <h1> Salaery Calculator</h1>
+    <div>
+        <input id="firstname" placeholder="firstname">
+        <input id="lastname" placeholder="lastname">
+        <input id="idtag" placeholder="idtag">
+        <input id="title" placeholder="title">
+        <input id="annualsalaery" placeholder="Annual Salaery" type="number">
+        <button id="submitbutton">Submit</button>
+
+    </div>
+    <div>
+        <table style="width:100%" id='penguintable'>
+            <thead>
+                <tr>
+                    <th> Frist Name</th>
+                    <th> Last Name</th>
+                    <th>ID</th>
+                    <th>Title</th>
+                    <th>Annual Salaery</th>
+                    <th>Delete button</th>
+                    
+                </tr>
+            </thead>
+            <tbody id='tablebody'>
+                <!-- <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><button class = "deletebutton">Delete</button></td>
+
+                </tr> -->
+            </tbody>
+        </table>
+    </div>
+    <div id="moneycounter">
+
+    </div>
+
+</body>
+
+</html>
